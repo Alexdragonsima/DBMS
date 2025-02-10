@@ -1,0 +1,4 @@
+USE DBMS_DDL;
+GO
+
+SELECT * FROM Directions;
