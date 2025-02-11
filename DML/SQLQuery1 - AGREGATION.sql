@@ -1,11 +1,11 @@
-USE DBMS_DDL;
+п»їUSE DBMS_DDL;
 GO
 
 SELECT 
-			group_name			AS N'Группа',
-			COUNT(student_id)	AS N'Количество студентов'
+			group_name			AS N'Р“СЂСѓРїРїР°',
+			COUNT(student_id)	AS N'РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СѓРґРµРЅС‚РѕРІ'
 FROM		Students, Groups
 WHERE		[group]=group_id
 GROUP BY	group_name
-ORDER BY	N'Количество студентов'
+ORDER BY	N'РљРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СѓРґРµРЅС‚РѕРІ'
 ;
