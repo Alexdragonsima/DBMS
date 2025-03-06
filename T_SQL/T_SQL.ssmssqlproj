@@ -22,6 +22,12 @@
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
+        <FileNode Name="SQLQuery0 - SELECT FROM Schedule.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery0 - SELECT FROM Schedule.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1 - INSERT PV_319.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
@@ -33,12 +39,6 @@
           <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1 - Schedule.sql</FullPath>
-        </FileNode>
-        <FileNode Name="SQLQuery1 - SELECT FROM Schedule.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>SQLQuery1 - SELECT FROM Schedule.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - CREATE PROC PrintScheduleForGroup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
@@ -52,11 +52,17 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery2 - CREATE PROC PrintScheduleForGroupPeriod.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2 - CREATE PROC ScheduleforStacionarGroup.sql">
+        <FileNode Name="SQLQuery2 - CREATE PROC ScheduleForBaseStacionarGroup.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2 - CREATE PROC ScheduleforStacionarGroup.sql</FullPath>
+          <FullPath>SQLQuery2 - CREATE PROC ScheduleForBaseStacionarGroup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2 - CREATE PROC ScheduleForStacionarGroup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>WIN-JM5D6L6EUD5\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2 - CREATE PROC ScheduleForStacionarGroup.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2 - Schedules procedure test.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:WIN-JM5D6L6EUD5\SQLEXPRESS:True</AssociatedConnectionMoniker>
