@@ -1,6 +1,8 @@
 USE DBMS_DDL;
 GO
 
+DROP TABLE DaysOff;
+
 CREATE TABLE DaysOff
 (
 	[date]		DATE	 PRIMARY KEY,
