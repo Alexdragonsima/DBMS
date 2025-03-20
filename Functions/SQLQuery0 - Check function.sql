@@ -13,7 +13,7 @@ GO
 --PRINT('---------------------------');
 --PRINT(dbo.GetHolidayStartDate(N'??????%', 2025));
 PRINT(dbo.GetEasterDate(2004));
---PRINT(dbo.GetLastDateForGroup(N'PV_319'));
+PRINT(dbo.GetLastDateForGroup(N'PV_319'));
 --DECLARE @date AS DATE = (SELECT MAX([date]) FROM Schedule WHERE [group]=dbo.GetGroupID(N'PV_319'));
 --PRINT(@date);
 --PRINT (dbo.GetMaxLearningDayFor(N'PV_319'));

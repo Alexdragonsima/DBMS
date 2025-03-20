@@ -4,7 +4,7 @@ GO
 
 --SELECT * FROM DaysOFF;
 
-EXEC sp_AddAllHolidaysFor 2024; 
+--EXEC sp_AddAllHolidaysFor 2024; 
 
 SELECT
 		[Дата]		=	[date],
